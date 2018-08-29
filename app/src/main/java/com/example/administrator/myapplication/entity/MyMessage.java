@@ -15,7 +15,7 @@ public class MyMessage implements IMessage {
     private IUser user;
     private String contentFile;
     private long duration;
-    int anInt=1;
+    int anInt=2;
 
     public MyMessage(String text, int type) {
         this.text = text;
